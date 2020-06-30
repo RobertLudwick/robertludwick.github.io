@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import Navbar from './components/navbar';
+import Navi from './components/navi'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Navbar />
+    <Navi />
   </React.StrictMode>,
   document.getElementById('root')
 );
