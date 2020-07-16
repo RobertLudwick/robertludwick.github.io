@@ -1,16 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Navi from './components/navi'
-import InfoCard from './components/infocard'
+import Header from './components/header'
+import Cardgroup from './components/cardgroup'
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
     <Navi />
-
-    <InfoCard /><InfoCard />
+    <Cardgroup />
   </React.StrictMode>,
   document.getElementById('root')
 );
