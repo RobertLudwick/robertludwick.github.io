@@ -4,10 +4,13 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Navi from './components/navi'
+import InfoCard from './components/infocard'
 
 ReactDOM.render(
   <React.StrictMode>
     <Navi />
+
+    <InfoCard /><InfoCard />
   </React.StrictMode>,
   document.getElementById('root')
 );
