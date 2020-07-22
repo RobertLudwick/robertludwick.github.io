@@ -1,3 +1,6 @@
+# Portfolio site
+This is currently a work in progress I am currently building the components and testing the styling of the site it will have major changes with each commit.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
