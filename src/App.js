@@ -28,6 +28,7 @@ function App() {
       .then(res => res.json())
       .then(data => {
         console.log(data)
+        setData(data)
       })
   }, []);
   
@@ -43,8 +44,7 @@ function App() {
   return (
     <React.StrictMode>
     <Bar />
-    
-    <Profile user = {userName}/>
+    <Profile user = {userName} repos = {repos}/>
     <Slideshow />
     <Cardgroup />
   </React.StrictMode>
