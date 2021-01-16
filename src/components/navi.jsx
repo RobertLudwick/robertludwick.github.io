@@ -12,7 +12,7 @@ class Navi extends React.Component {
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="mr-auto">
         <Nav.Link href="#home">Home</Nav.Link>
-        <Nav.Link href="https://drive.google.com/uc?export=download&id=18J0sZfvwXfM5uwHfaOoootrs-mYJP-6v">Resume</Nav.Link>
+        <Nav.Link href="https://drive.google.com/uc?export=download&id=1SZKGe93ndXtP52V0cufovE6sEC2lkP1J">Resume</Nav.Link>
         <NavDropdown title="Projects" id="basic-nav-dropdown">
           <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
           <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
