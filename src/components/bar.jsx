@@ -14,7 +14,7 @@ class Bar extends React.Component {
   <Typography variant="h6" >
             Robert Ludwick
           </Typography>
-          <Button color="inherit" href="https://drive.google.com/uc?export=download&id=18J0sZfvwXfM5uwHfaOoootrs-mYJP-6v">Resume</Button>
+          <Button color="inherit" href="https://drive.google.com/uc?export=download&id=1SZKGe93ndXtP52V0cufovE6sEC2lkP1J">Resume</Button>
           <Button color="inherit">Projects</Button>
           
           <Button color="inherit" href="https://github.com/RobertLudwick">Github</Button>
