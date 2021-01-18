@@ -43,7 +43,7 @@ function App() {
   return (
     <React.StrictMode>
     <Bar />
-    <Slideshow user = {userName} repos = {repos} />
+    <Slideshow user = {userName} repos = {repos} avatar = {avatar} />
     <Cardgroup />
   </React.StrictMode>
   );

@@ -6,11 +6,10 @@ class Slideshow extends React.Component {
   
   
   render () {
-    
     return (
         <Carousel>
   <Carousel.Item>
-      <Profile user = {this.props.user} repos = {this.props.repos} />
+      <Profile user = {this.props.user} repos = {this.props.repos} avatar = {this.props.avatar} />
   </Carousel.Item>
 </Carousel>
     )
