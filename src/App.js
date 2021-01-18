@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
-import ReactDOM from 'react-dom';
+//import ReactDOM from 'react-dom';
 import './index.css';
-import * as serviceWorker from './serviceWorker';
-import Navi from './components/navi'
+//import * as serviceWorker from './serviceWorker';
+//import Navi from './components/navi'
 import Bar from './components/bar'
-import Header from './components/header'
+//import Header from './components/header'
 import Cardgroup from './components/cardgroup'
 import Slideshow from './components/slideshow'
 
@@ -43,7 +43,7 @@ function App() {
   return (
     <React.StrictMode>
     <Bar />
-    <Slideshow user = {userName} repos = {repos} avatar = {avatar} />
+    <Slideshow user = {name} repos = {repos} avatar = {avatar} />
     <Cardgroup />
   </React.StrictMode>
   );

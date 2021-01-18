@@ -1,11 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './App.css'
 import * as serviceWorker from './serviceWorker';
-import Navi from './components/navi'
-import Bar from './components/bar'
-import Header from './components/header'
-import Cardgroup from './components/cardgroup'
 import App from './App'
 
 import 'bootstrap/dist/css/bootstrap.min.css';

@@ -1,15 +1,15 @@
-import React, { useEffect, useState }  from 'react'
+import React from 'react'
 import Button from 'react-bootstrap/Button'
 import Card from 'react-bootstrap/Card' 
 
+import './Styles/component.css'
 import './Styles/profile.css'
 
 class Profile extends React.Component {
  
   render () {
     return (
-      <Card >
-        <Card.Header>Github</Card.Header>
+      <Card className="standard">
         <Card.Body>
           <Card.Title>{this.props.user}</Card.Title>
           <Card.Img variant="left" className="profile" src={this.props.avatar} />

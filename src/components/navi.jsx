@@ -3,10 +3,12 @@ import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 import Navbar from 'react-bootstrap/Navbar'
 
+import './Styles/Navbar.css'
+
 class Navi extends React.Component {
   render () {
     return (
-    <Navbar bg="light" expand="lg">
+    <Navbar className="standard">
     <Navbar.Brand href="#home">Robert Ludwick</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
