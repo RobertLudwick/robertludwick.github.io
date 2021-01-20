@@ -16,7 +16,7 @@ class Profile extends React.Component {
           <Card.Text className="profile">
             {this.props.repos}
           </Card.Text>
-          <Button variant="primary" className="button1">Go somewhere</Button>
+          <Button href="https://github.com/RobertLudwick?tab=repositories">Repositories</Button>
         </Card.Body>
       </Card>
     )
