@@ -7,7 +7,8 @@ import './index.css';
 import Bar from './components/bar'
 //import Header from './components/header'
 import Cardgroup from './components/cardgroup'
-import Slideshow from './components/slideshow'
+//import Slideshow from './components/slideshow'
+import Profile from './components/profile'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -43,7 +44,8 @@ function App() {
   return (
     <React.StrictMode>
     <Bar />
-    <Slideshow user = {name} repos = {repos} avatar = {avatar} />
+    <Profile user = {name} repos = {repos} avatar = {avatar} />
+    {/* <Slideshow user = {name} repos = {repos} avatar = {avatar} /> */}
     <Cardgroup />
   </React.StrictMode>
   );
