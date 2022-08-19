@@ -10,6 +10,7 @@ class Bar extends React.Component {
     return (
         <AppBar position="static">
   <Toolbar>
+  {/* <img src={process.env.PUBLIC_URL + 'logoconcept.png'}  /> */}
   <Typography variant="h6" >
             Robert Ludwick
           </Typography>

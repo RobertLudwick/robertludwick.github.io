@@ -11,10 +11,10 @@ class Profile extends React.Component {
     return (
       <Card className="standard">
         <Card.Body>
-          <Card.Title>{this.props.user}</Card.Title>
+          {/* <Card.Title>{this.props.user}</Card.Title> */}
           <Card.Img variant="left" className="profile" src={this.props.avatar} />
           <Card.Text className="profile">
-            {this.props.repos}
+            {this.props.bio}
           </Card.Text>
           <Button href="https://github.com/RobertLudwick?tab=repositories">Repositories</Button>
         </Card.Body>

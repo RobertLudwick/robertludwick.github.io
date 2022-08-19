@@ -9,9 +9,10 @@ import Bar from './components/bar'
 import Cardgroup from './components/cardgroup'
 //import Slideshow from './components/slideshow'
 import Profile from './components/profile'
-
+import { Route, Routes, Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import Home from './components/home';
 
 function App() {
   const [name, setName] = useState('');
@@ -21,6 +22,7 @@ function App() {
   const [repos, setRepos] = useState('');
   const [avatar, setAvatar] = useState('');
   const [userInput, setUserInput] = useState('');
+  const [bio, setBio] = useState('');
   const [error, setError] = useState(null);
   
   useEffect(() => {
@@ -32,21 +34,25 @@ function App() {
       })
   }, []);
   
-  const setData = ({ name, login, followers, following, public_repos, avatar_url}) => {
+  const setData = ({ name, login, followers, following, public_repos, avatar_url, bio}) => {
     setName(name);
     setUsername(login);
     setFollowers(followers);
     setFollowing(following);
     setRepos(public_repos);
     setAvatar(avatar_url);
+    setBio(bio);
   }
   
   return (
+    
     <React.StrictMode>
-    <Bar />
-    <Profile user = {name} repos = {repos} avatar = {avatar} />
-    {/* <Slideshow user = {name} repos = {repos} avatar = {avatar} /> */}
-    <Cardgroup />
+    <Routes>
+      <Route path="/" element={<Home/>}>
+      </Route>
+      <Route path="/about" component={Cardgroup}>
+      </Route>
+    </Routes>
   </React.StrictMode>
   );
 }
